@@ -1,10 +1,9 @@
 # Iron Man Glove 🤖
-<br>
-
 *Made by Tahseen Rayhan & Ali Khan*
 <br>
 <br>
-We were tasked to create a toy using Arduino Uno and we thought what could be better than becoming your favorite superhero! To create the Iron Man Glove, we used a Neopixel Ring, Pushbuttons, and LEDs to bring Iron Man to life, letting everyone that welds this device to become one of the Avengers themselves. Various commands, functions, loops, and conditions were used to program various components of the glove, making sure it remains functional after losing connection to the compiler. 
+<br>
+We created a 'toy' using Arduino Uno and we thought what could be better than becoming your favorite superhero! To create the Iron Man Glove, we used a Neopixel Ring, Pushbuttons, and LEDs to bring Iron Man to life, letting everyone that welds this device to become one of the Avengers themselves. Various commands, functions, loops, and conditions were used to program various components of the glove, making sure it remains functional after losing connection to the compiler. 
 <br>
 <br>
 ## Features
