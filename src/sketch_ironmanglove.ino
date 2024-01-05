@@ -3,16 +3,16 @@ Iron Man Glove - Arduino Code
 Tahseen Rayhan; Ali Khan
 DESCRIPTION:
 This code is made for the exclusive Arduino "Iron Man Glove," made by Tahseen
-Rayhan & Ali Khan. To create the toy that we did, we used a Neopixel Ring,
-pushbuttons, and LEDs to bring Iron Man to life and let everyone that uses this toy be
-able to take on the role of one of their favorite Marvel superheroes. Various commands,
-functions, loops, and other code was used to program the various components that were
-used, while it's made sure that certain actions are performed after certain conditions
-were met (eg; pressing a pushbutton to initiate the "blaster-effect" or the pushbutton
-that turns on the "laser" LEDs). Comments below help explain what each part of the code
-is responsible for.
-    -----------------------------------------------------------------------------------------*/
-    // CONSTANTS
+Rayhan & Ali Khan. We used a Neopixel Ring, pushbuttons, and LEDs to bring Iron Man to life 
+and let everyone that uses this toy be able to take on the role of one of their favorite 
+Marvel superheroes. Various commands, functions, loops, and other code was used to program 
+the various components that were used, while it's made sure that certain actions are 
+performed after certain conditions were met (eg; pressing a pushbutton to initiate the 
+"blaster-effect" or the pushbutton that turns on the "laser" LEDs). Comments below help 
+explain what each part of the code is responsible for.
+-----------------------------------------------------------------------------------------*/
+
+// CONSTANTS
 #include <Adafruit_NeoPixel.h>
     //Configuring the NeoPixel, Pushbuttons, LEDS, and initializing variables
 #define NEOPIXEL 11
@@ -25,6 +25,7 @@ int pos = 0, dir = 1; // Position and direction of the Iron Man blaster
 int default_delay = 2; // Many commands/functions use a delay of 2ms
 // Initializing NeoPixel strip
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, NEOPIXEL, NEO_GRB);
+
 //-------------------------------------------------------------------------------------
 // FUNCTIONS
 void neopixel_startup(int init_br, int final_br, int del) {
@@ -123,6 +124,10 @@ void starting_sequence() {
   neopixel_startup(45, 101, default_delay); // fades from brightness(45) to brightness(100)
 }
 //-------------------------------------------------------------------------------------
+
+
+
+
 // ACTUAL CODE
 void setup() {
   Serial.begin(9600);
