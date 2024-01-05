@@ -1,4 +1,5 @@
 # Iron Man Glove 🤖
+<br>
 https://drive.google.com/drive/folders/1HAbXJehsi36DPopXAbXQvzgfMOtcr65s?usp=sharing
 
 *Made by Tahseen Rayhan & Ali Khan*
@@ -17,8 +18,28 @@ We were tasked to create a toy using Arduino Uno and we thought what could be be
 **LED Lasers:** The LEDs are interconnected with a pushbutton through a breadboard, which allow you to control when the lasers are activated. This pushbutton is installed within the glove, such that when the user makes a fist, the button is activated, causing the lasers to start pulsing.
 <br><br>
 ![Image](/images/Glove_04.jpg)
+<br>
+<br>
+## Installation / Downloading the Code
+- Download the Arduino IDE made for your [device](https://www.arduino.cc/en/software)
+- Open the source code and connect the components shown on the schematic below to the Arduino Uno
 
-<br><br><br>
+<br>
+
+## Materials
+* Arduino Uno
+* NeoPixel Ring - 16 RGB LED
+* 2x LEDs
+* 2x Pushbuttons
+* 4x 1K Ohm Resistors
+* Battery (9V)
+* Breadboard
+* Glove
+
+## Stack
+* C++ (Arduino)
+* Inspiration from: [Michael P. Joseph](https://github.com/michaelpjoseph/ironmanblaster/blob/master/ironmanblaster.ino)
+<br>
 
 ## Schematic
-![Image](/images/Schematic.png)
+<br>![Image](/images/Schematic.png)
