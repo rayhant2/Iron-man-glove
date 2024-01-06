@@ -41,3 +41,7 @@ We created a 'toy' using Arduino Uno and we thought what could be better than be
 
 ## Schematic
 <br>![Image](/media/Schematic.png)
+<br>
+<br>
+## License
+MIT
